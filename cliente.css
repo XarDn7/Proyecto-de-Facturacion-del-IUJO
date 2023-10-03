@@ -1,0 +1,104 @@
+body{
+    background-image: url(Assets/images/primera_ventana/cafe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    border: 5px solid #462e0f;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.form h1 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: -3px -3px chocolate;
+    font-size: 50px;
+    font-weight: 300;
+    color: whitesmoke;;
+}
+
+.form h2 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: -3px -3px chocolate;
+    font-size: 40px;
+    font-weight: 300;
+    color: whitesmoke;;
+}
+
+.form .regularclient{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.form input, button{
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.form input{
+    background-color:  rgb(252, 247, 200);
+    color: black;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    text-indent: 20px;
+    background-image: url(Assets/images/icons/pocillo.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 7px;
+}
+
+.regularclient input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+
+.regularclient button{
+    background-color: rgb(222, 146, 91);
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-transform: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form .newclient{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.newclient{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.newclient button{
+    background-color: rgb(222, 146, 91);
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-transform: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;    
+}

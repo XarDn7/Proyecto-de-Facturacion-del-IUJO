@@ -1,0 +1,89 @@
+body{
+    background-image: url(Assets/images/primera_ventana/cafe4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    border: 5px solid #462e0f;
+    border-radius: 5px;
+    align-items: center;    
+}
+
+.form h2 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: -5px -3px chocolate;
+    font-size: 50px;
+    font-weight: 300;
+    color: whitesmoke;;
+}
+
+.form .loging{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.form input, button{
+    margin: 10px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.form input{
+    background-color: rgb(252, 247, 200);
+    color: black;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    text-indent: 20px;
+    background-image: url(Assets/images/icons/userr.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 7px;
+}
+
+.loging input:nth-child(2){
+    background-image: url(Assets/images/icons/padlock.png);
+}
+
+.loging input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+
+.loging button{
+    background-color: rgb(222, 146, 91);
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-transform: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.suggessts{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.suggessts .forgot{
+    color: whitesmoke;
+    cursor: pointer;
+}
